@@ -13,7 +13,12 @@ const FlashSale = () => {
           </a>
         </div>
         <hr className="w-full" />
-        <FlashSaleCard />
+        <div className="grid grid-rows-[auto] grid-cols-6">
+          <FlashSaleCard />
+          <FlashSaleCard /> <FlashSaleCard /> <FlashSaleCard />{" "}
+          <FlashSaleCard /> <FlashSaleCard /> <FlashSaleCard />{" "}
+          <FlashSaleCard /> <FlashSaleCard />
+        </div>
       </div>
     </div>
   );
