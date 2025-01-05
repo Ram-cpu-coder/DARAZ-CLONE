@@ -9,7 +9,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="w-[100vw]">
+    <div className="w-[100%]">
       <TopBar />
       <NavBar />
       <Body />

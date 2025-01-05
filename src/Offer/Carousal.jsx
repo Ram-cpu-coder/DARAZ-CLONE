@@ -11,21 +11,33 @@ const Carousal = () => {
         slideInterval={3000}
         className="carousal h-[auto] min-h-[300px]"
       >
-        <a href="">
-          <img src="/assets/images/OfferTemplate1.png" alt="dsfgsd" />
-        </a>
-        <a href="">
-          <img src="/assets/images/OfferTemplate2.png" alt="sdfgsdfg" />
-        </a>
-        <a href="">
-          <img src="/assets/images/OfferTemplate1.png" alt="sdfgdsfg" />
-        </a>
-        <a href="">
-          <img src="/assets/images/OfferTemplate2.png" alt="sdfgsdfg" />
-        </a>
-        <a href="">
-          <img src="/assets/images/OfferTemplate1.png" alt="sdfgsdfg" />
-        </a>
+        <div>
+          <a href="">
+            <img
+              src="/assets/images/OfferTemplate1.png"
+              alt="dsfgsd"
+              className="w-full h-auto object-cover"
+            />
+          </a>
+        </div>
+        <div>
+          <a href="">
+            <img
+              src="/assets/images/OfferTemplate1.png"
+              alt="dsfgsd"
+              className="w-full h-auto object-cover"
+            />
+          </a>
+        </div>
+        <div>
+          <a href="">
+            <img
+              src="/assets/images/OfferTemplate1.png"
+              alt="dsfgsd"
+              className="w-full h-auto object-cover"
+            />
+          </a>
+        </div>
       </Carousel>
     </div>
   );
