@@ -9,8 +9,8 @@ import JustForYou from "./Offer/Just For You/JustForYou";
 
 const Body = () => {
   return (
-    <div className="flex flex-col justify-center items-center w-[100%] h-auto">
-      <div className="md:w-[80%] w-[100%] border h-auto min-h-[300px] flex flex-col md:flex-row justify-center items-center">
+    <div className="flex flex-col justify-center items-center w-screen h-auto">
+      <div className="flex w-[80%] h-[300px]">
         <Carousal />
         <AppAD />
       </div>
