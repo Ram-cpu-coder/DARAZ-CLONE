@@ -7,26 +7,16 @@ import React from "react";
 const Carousal = () => {
   return (
     <div className="w-full h-full">
-      <Carousel slideInterval={5000} className="carousal">
+      <Carousel>
         <a href="">
-          <img src="/assets/images/OfferTemplate1.png" alt="..." />
+          <img src="./assets/images/OfferTemplate1.png" alt="..." />
         </a>
-        <img
-          src="https://flowbite.com/docs/images/carousel/carousel-2.svg"
-          alt="..."
-        />
-        <img
-          src="https://flowbite.com/docs/images/carousel/carousel-3.svg"
-          alt="..."
-        />
-        <img
-          src="https://flowbite.com/docs/images/carousel/carousel-4.svg"
-          alt="..."
-        />
-        <img
-          src="https://flowbite.com/docs/images/carousel/carousel-5.svg"
-          alt="..."
-        />
+        <a href="">
+          <img src="./assets/images/OfferTemplate1.png" alt="..." />
+        </a>
+        <a href="">
+          <img src="./assets/images/OfferTemplate1.png" alt="..." />
+        </a>
       </Carousel>
     </div>
   );
