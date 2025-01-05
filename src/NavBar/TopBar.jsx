@@ -4,10 +4,10 @@ import React from "react";
 
 const TopBar = () => {
   return (
-    <nav className="bg-[white] border-gray-200 dark:bg-gray-900 text-black h-[40px] text-center">
-      <div className="flex flex-wrap items-center justify-center mx-auto">
-        <div className="w-full flex justify-end items-center h-[40px]">
-          <ul className="flex justify-center items-center w-[75%] gap-[50px]">
+    <nav className="bg-[white] border-gray-200 dark:bg-gray-900 text-black h-[auto] max-h-[50px] text-center pt-2">
+      <div className="flex items-center justify-center">
+        <div className="w-full flex justify-end items-center h-[auto]">
+          <ul className="flex justify-center items-center w-[75%] gap-7">
             <li>
               <a href="#" className="">
                 SAVE MORE ON APP

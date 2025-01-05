@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+.carousal button {
+  filter: invert(100%);
+}
+.appAdbg{
+  background: url('/assets/images/bgAppAD.png');
+}

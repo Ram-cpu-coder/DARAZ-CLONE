@@ -2,11 +2,33 @@ import React from "react";
 
 const AppAD = () => {
   return (
-    <div className="flex flex-col justify-center items-center p-3 w-[30%]">
+    <div className="flex flex-col justify-center items-center p-3 w-[20%] border">
       {/* logo and title  */}
-      <div></div>
+
+      <div className="flex justify-center items-center gap-2">
+        <img
+          src="/assets/images/smallLogo.png"
+          alt="LOGO"
+          className="h-[20px]"
+        />
+        <p>Download the App</p>
+      </div>
+
       {/* rating and download titles */}
-      <div></div>
+      <div className="appAdbg">
+        <p>4.8 Rated</p>
+        <p>Download App</p>
+        <div className="flex flex-col">
+          <div>
+            <img src="" alt="" />
+            <p>Free Delivery</p>
+          </div>
+          <div>
+            <img src="" alt="" />
+            <p>Free Delivery</p>
+          </div>
+        </div>
+      </div>
       {/* qr code and the link to download */}
       <div>
         {/* qr code */}

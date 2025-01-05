@@ -6,22 +6,25 @@ import React from "react";
 
 const Carousal = () => {
   return (
-    <div className=" w-[80%] border">
-      <Carousel slideInterval={5000} className="w-full h-[300px]">
+    <div className="w-[80%] h-[auto] min-h-[300px]">
+      <Carousel
+        slideInterval={3000}
+        className="carousal h-[auto] min-h-[300px]"
+      >
         <a href="">
-          <img src="/assets/images/OfferTemplate1" alt="" />
+          <img src="/assets/images/OfferTemplate1.png" alt="dsfgsd" />
         </a>
         <a href="">
-          <img src="/assets/images/OfferTemplate2" alt="" />
+          <img src="/assets/images/OfferTemplate2.png" alt="sdfgsdfg" />
         </a>
         <a href="">
-          <img src="/assets/images/OfferTemplate1" alt="" />
+          <img src="/assets/images/OfferTemplate1.png" alt="sdfgdsfg" />
         </a>
         <a href="">
-          <img src="/assets/images/OfferTemplate2" alt="" />
+          <img src="/assets/images/OfferTemplate2.png" alt="sdfgsdfg" />
         </a>
         <a href="">
-          <img src="/assets/images/OfferTemplate1" alt="" />
+          <img src="/assets/images/OfferTemplate1.png" alt="sdfgsdfg" />
         </a>
       </Carousel>
     </div>
