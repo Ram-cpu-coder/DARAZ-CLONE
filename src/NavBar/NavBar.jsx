@@ -4,7 +4,7 @@ import { CiSearch } from "react-icons/ci";
 
 const NavBar = () => {
   return (
-    <div className="flex justify-center items-center border-b bg-[white] pb-1 sticky top-0">
+    <div className="z-50 flex justify-center items-center border-b bg-[#f57224] pb-1 sticky top-0">
       <div className="flex justify-between items-center w-[80%] h-[75px]">
         {/* logo */}
         <div className="h-[80px] w-[200px] flex items-center">
@@ -12,19 +12,18 @@ const NavBar = () => {
             <img
               src="/assets/images/DarazLogo.png"
               alt="Daraz Logo"
-              className="h-[80px] w-[200px]"
+              className="h-auto w-[150px]"
             />
           </a>
         </div>
         {/* search bar */}
-        <div className="relative">
+        <div className="flex w-[55vw] h-[50px] bg-white rounded-md">
           <input
-            type="search"
-            className="w-[60vw] h-[50px]"
+            className="w-full h-full rounded-md  border-none outline-none px-4"
             placeholder="Search in Daraz"
           />
           {/* icon-search */}
-          <CiSearch className="absolute top-0 right-0 text-5xl h-[48.75px] border-l" />
+          <CiSearch className="h-full p-2 w-[60px] text-2xl border-l rounded-md bg-[#ffbf80]" />
         </div>
 
         {/* icon-cart */}
