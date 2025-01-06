@@ -1,5 +1,8 @@
 import { useState } from "react";
 import "./App.css";
+
+import { TiMessages } from "react-icons/ti";
+
 import TopBar from "./NavBar/TopBar";
 import NavBar from "./NavBar/NavBar";
 
@@ -13,6 +16,11 @@ function App() {
       <TopBar />
       <NavBar />
       <Body />
+      <div className="fixed bottom-1 right-[30px] shadow">
+        <button className="flex items-center gap-2 border px-3">
+          <TiMessages /> Messages
+        </button>
+      </div>
     </div>
   );
 }
