@@ -7,7 +7,7 @@ const JustForYou = ({ items }) => {
       <h1 className="text-2xl">Just For You</h1>
       <div className="grid grid-rows-[auto] grid-cols-6">
         {items.map((item) => {
-          <JustForYouCard item={item} />;
+          return <JustForYouCard item={item} />;
         })}
         {/* <FlashSaleCard />
         <FlashSaleCard />
