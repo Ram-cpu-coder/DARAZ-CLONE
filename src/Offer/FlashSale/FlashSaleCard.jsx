@@ -10,11 +10,11 @@ const FlashSaleCard = ({ item }) => {
           alt=""
           className="h-auto w-[150px] object-cover"
         />
-        <p>{data.name}</p>
-        <span className="text-[#f57224]">Rs. {data.newPrice}</span>
+        <p>{item.name}</p>
+        <span className="text-[#f57224]">Rs. {item.newPrice}</span>
         <span className="flex gap-2">
-          <p className="line-through text-[#9e9e9e]">Rs. {data.oldPrice}</p>
-          <p>-{data.discountPercentage}%</p>
+          <p className="line-through text-[#9e9e9e]">Rs. {item.oldPrice}</p>
+          <p>-{item.discountPercentage}%</p>
         </span>
       </div>
     </a>
