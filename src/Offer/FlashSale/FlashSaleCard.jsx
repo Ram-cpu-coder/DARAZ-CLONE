@@ -1,8 +1,8 @@
 import React from "react";
 
-const FlashSaleCard = ({ data }) => {
-  if (!data) return;
-  return (
+const FlashSaleCard = ({ item }) => {
+  // if (!item) return;
+  return item ? (
     <a href="" className="inline-block hover:border-2 p-2">
       <div className="flex flex-col justify-start">
         <img
@@ -18,6 +18,8 @@ const FlashSaleCard = ({ data }) => {
         </span>
       </div>
     </a>
+  ) : (
+    ""
   );
 };
 

@@ -2,6 +2,10 @@ import React from "react";
 import FlashSaleCard from "./FlashSaleCard";
 
 const FlashSale = ({ items }) => {
+  // const products = items.map((item) => {
+  //   return item;
+  // });
+  // console.log("Product:", products);
   return (
     <div className="min-h-[150px] w-[80vw]">
       <h1 className="text-2xl">FlashSale</h1>
@@ -14,10 +18,9 @@ const FlashSale = ({ items }) => {
         </div>
         <hr className="w-full" />
         <div className="grid grid-rows-[auto] grid-cols-6">
-          {items.map((item, index) => (
-            // console.log(item)
-            <FlashSaleCard key={index} data={item} />
-          ))}
+          {items.map((item, index) => {
+            return <FlashSaleCard item={item} key={index} />;
+          })}
         </div>
       </div>
     </div>
