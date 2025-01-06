@@ -7,7 +7,7 @@ import React from "react";
 const Carousal = () => {
   return (
     <div className="w-full h-full">
-      <Carousel>
+      <Carousel className="carousal">
         <a href="">
           <img src="./assets/images/OfferTemplate1.png" alt="..." />
         </a>
