@@ -4,7 +4,7 @@ import React from "react";
 
 const TopBar = () => {
   return (
-    <nav className="bg-[white] border-gray-200 dark:bg-gray-900 text-black h-[auto] max-h-[50px] text-center pt-2">
+    <nav className="bg-[#f57224] border-gray-200 dark:bg-gray-900 text-white max-h-[50px] text-center ">
       <div className="flex items-center justify-center">
         <div className="w-full flex justify-end items-center h-[auto]">
           <ul className="flex justify-center items-center w-[75%] gap-7">

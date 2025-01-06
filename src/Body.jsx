@@ -2,10 +2,11 @@ import React from "react";
 
 import Carousal from "./Offer/Carousal";
 import AppAD from "./Offer/AppAD";
-import HeroOffer from "./Offer/HeroOffer";
 import FlashSale from "./Offer/FlashSale/FlashSale";
 import Categories from "./Categories/Categories";
 import JustForYou from "./Offer/Just For You/JustForYou";
+
+import flashSaleItems from "./FlashSaleItem";
 
 const Body = () => {
   return (
@@ -14,8 +15,7 @@ const Body = () => {
         <Carousal />
         <AppAD />
       </div>
-      <HeroOffer />
-      <FlashSale />
+      <FlashSale items={flashSaleItems} />
       <Categories />
       <JustForYou />
     </div>

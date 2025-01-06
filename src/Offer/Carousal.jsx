@@ -12,7 +12,7 @@ const Carousal = () => {
           <img src="./assets/images/OfferTemplate1.png" alt="..." />
         </a>
         <a href="">
-          <img src="./assets/images/OfferTemplate1.png" alt="..." />
+          <img src="./assets/images/OfferTemplate2.png" alt="..." />
         </a>
         <a href="">
           <img src="./assets/images/OfferTemplate1.png" alt="..." />

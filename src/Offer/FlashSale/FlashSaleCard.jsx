@@ -1,22 +1,25 @@
 import React from "react";
 
-const FlashSaleCard = () => {
-  return (
+const FlashSaleCard = ({ item }) => {
+  // if (!item) return;
+  return item ? (
     <a href="" className="inline-block hover:border-2 p-2">
       <div className="flex flex-col justify-start">
         <img
           src="/assets/images/watchProduct.png"
-          alt=""
+          alt={item.name || "Product"}
           className="h-[150px] w-[150px]"
         />
-        <p>Name of the Product</p>
-        <span className="text-[orange]">Rs. 34</span>
+        <p>{item.name}</p>
+        <span className="text-[#f57224]">Rs. {item.newPrice}</span>
         <span className="flex gap-2">
-          <p className="line-through">Rs. 50</p>
-          <p>-25%</p>
+          <p className="line-through text-[#9e9e9e]">Rs. {item.oldPrice}</p>
+          <p>-{item.discountPercentage}%</p>
         </span>
       </div>
     </a>
+  ) : (
+    ""
   );
 };
 
