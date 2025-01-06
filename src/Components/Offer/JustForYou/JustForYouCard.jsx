@@ -15,14 +15,15 @@ const JustForYouCard = ({ item }) => {
         <div className="flex gap-2">
           <span className="text-[#f57224]">Rs. {item.newPrice}</span>
           <span className="flex gap-2 flex-col">
+            {/* no need of discount percentage in just for you card */}
             <p>-{item.discountPercentage}%</p>
           </span>
         </div>
 
         <p className="flex">
           <CiStar className="star" />
-          <CiStar />
-          <CiStar />
+          <CiStar className="star" />
+          <CiStar className="star" />
           <CiStar />
           <CiStar />
         </p>

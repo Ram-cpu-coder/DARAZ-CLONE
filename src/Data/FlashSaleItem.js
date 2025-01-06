@@ -6,6 +6,7 @@ const flashSaleItems = [
     oldPrice: 120,
     discountPercentage: 25,
     newPrice: 120 - (120 * 25) / 100,
+    ratings: 3,
   },
   {
     imgSrc:
@@ -14,6 +15,7 @@ const flashSaleItems = [
     oldPrice: 699,
     discountPercentage: 20,
     newPrice: 699 - (699 * 20) / 100,
+    ratings: 4,
   },
   {
     imgSrc:
@@ -22,6 +24,7 @@ const flashSaleItems = [
     oldPrice: 1500,
     discountPercentage: 30,
     newPrice: 1500 - (1500 * 30) / 100,
+    ratings: 5,
   },
   {
     imgSrc:
@@ -30,6 +33,7 @@ const flashSaleItems = [
     oldPrice: 899,
     discountPercentage: 15,
     newPrice: 899 - (899 * 15) / 100,
+    ratings: 2,
   },
   {
     imgSrc:
@@ -38,6 +42,7 @@ const flashSaleItems = [
     oldPrice: 75,
     discountPercentage: 40,
     newPrice: 75 - (75 * 40) / 100,
+    ratings: 3,
   },
 ];
 

@@ -10,17 +10,6 @@ const JustForYou = ({ items }) => {
         {items.map((item) => {
           return <JustForYouCard item={item} />;
         })}
-        {/* <FlashSaleCard />
-        <FlashSaleCard />
-        <FlashSaleCard />
-        <FlashSaleCard />
-        <FlashSaleCard />
-        <FlashSaleCard />
-        <FlashSaleCard />
-        <FlashSaleCard />
-        <FlashSaleCard />
-        <FlashSaleCard />
-        <FlashSaleCard /> */}
       </div>
       <a href="" className="m-3 flex justify-center">
         <button className="text-center  border px-[100px] py-2">
