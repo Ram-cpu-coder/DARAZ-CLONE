@@ -17,7 +17,7 @@ const Body = () => {
       </div>
       <FlashSale items={flashSaleItems} />
       <Categories />
-      <JustForYou />
+      <JustForYou items={flashSaleItems} />
     </div>
   );
 };

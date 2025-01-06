@@ -2,10 +2,6 @@ import React from "react";
 import FlashSaleCard from "./FlashSaleCard";
 
 const FlashSale = ({ items }) => {
-  // const products = items.map((item) => {
-  //   return item;
-  // });
-  // console.log("Product:", products);
   return (
     <div className="min-h-[150px] w-[80vw]">
       <h1 className="text-2xl">FlashSale</h1>
