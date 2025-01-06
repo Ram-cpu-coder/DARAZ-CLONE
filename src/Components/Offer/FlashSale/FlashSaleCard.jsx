@@ -1,12 +1,11 @@
 import React from "react";
 
 const FlashSaleCard = ({ item }) => {
-  // if (!item) return;
-  return item ? (
+  return (
     <a href="" className="inline-block hover:border-2 p-2">
       <div className="flex flex-col justify-start">
         <img
-          src="/assets/images/watchProduct.png"
+          src={item.imgSrc}
           alt=""
           className="h-auto w-[150px] object-cover"
         />
@@ -18,8 +17,6 @@ const FlashSaleCard = ({ item }) => {
         </span>
       </div>
     </a>
-  ) : (
-    ""
   );
 };
 

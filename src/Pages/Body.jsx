@@ -1,13 +1,13 @@
 import React from "react";
 
-import Carousal from "./Offer/Carousal";
-import AppAD from "./Offer/AppAD";
-import FlashSale from "./Offer/FlashSale/FlashSale";
-import Categories from "./Categories/Categories";
-import JustForYou from "./Offer/Just For You/JustForYou";
+import Carousal from "../Components/Carousal";
+import AppAD from "../Components/AppAD";
+import FlashSale from "../Components/Offer/FlashSale/FlashSale";
+import Categories from "../Components/Categories/Categories";
+import JustForYou from "../Components/Offer/JustForYou/JustForYou";
 import Footer from "./Footer";
 
-import flashSaleItems from "./FlashSaleItem";
+import flashSaleItems from "../Data/FlashSaleItem";
 
 const Body = () => {
   return (

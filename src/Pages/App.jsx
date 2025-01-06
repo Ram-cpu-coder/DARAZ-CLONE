@@ -1,10 +1,10 @@
 import { useState } from "react";
-import "./App.css";
+import "../App.css";
 
 import { TiMessages } from "react-icons/ti";
 
-import TopBar from "./NavBar/TopBar";
-import NavBar from "./NavBar/NavBar";
+import TopBar from "../Components/NavBar/TopBar";
+import NavBar from "../Components/NavBar/NavBar";
 
 import Body from "./Body";
 
