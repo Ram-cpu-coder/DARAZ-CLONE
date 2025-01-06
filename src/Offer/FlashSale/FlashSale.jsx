@@ -15,7 +15,8 @@ const FlashSale = ({ items }) => {
         <hr className="w-full" />
         <div className="grid grid-rows-[auto] grid-cols-6">
           {items.map((item, index) => (
-            <FlashSaleCard key={index} item={item} />
+            // console.log(item)
+            <FlashSaleCard key={index} data={item} />
           ))}
         </div>
       </div>
