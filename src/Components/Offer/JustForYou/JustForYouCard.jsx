@@ -2,6 +2,10 @@ import React from "react";
 import { CiStar } from "react-icons/ci";
 
 const JustForYouCard = ({ item }) => {
+  const fullStars = Math.round(item.ratings);
+
+  const emptyStars = 5 - fullStars;
+
   //   console.log(item);
   return (
     <a href="" className="inline-block hover:border-2 p-2">
@@ -21,11 +25,19 @@ const JustForYouCard = ({ item }) => {
         </div>
 
         <p className="flex">
-          <CiStar className="star" />
+          {[...Array(fullStars)].map((_, index) => (
+            <CiStar className="star" key={index} />
+          ))}
+
+          {[...Array(emptyStars)].map((_, index) => (
+            <CiStar key={index} />
+          ))}
+
+          {/* <CiStar className="star" />
           <CiStar className="star" />
           <CiStar className="star" />
           <CiStar />
-          <CiStar />
+          <CiStar /> */}
         </p>
       </div>
     </a>

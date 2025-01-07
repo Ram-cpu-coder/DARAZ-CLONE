@@ -1,11 +1,11 @@
 import React from "react";
 
-import Carousal from "../Components/Carousal";
+import { Carousal, FlashSale } from "../Components/helper.js";
+
 import AppAD from "../Components/AppAD";
-import FlashSale from "../Components/Offer/FlashSale/FlashSale";
 import Categories from "../Components/Categories/Categories";
 import JustForYou from "../Components/Offer/JustForYou/JustForYou";
-import Footer from "./Footer";
+import Footer from "../Footer.jsx";
 
 import flashSaleItems from "../Data/FlashSaleItem";
 
