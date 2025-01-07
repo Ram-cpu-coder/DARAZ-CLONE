@@ -27,7 +27,7 @@ const NavBar = () => {
         </div>
 
         {/* icon-cart */}
-        <a href="">
+        <a href="/cart">
           <PiShoppingCartSimple className="w-[30px] h-[30px]" />
         </a>
       </div>

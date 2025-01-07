@@ -5,6 +5,7 @@ import { TiMessages } from "react-icons/ti";
 
 import TopBar from "../Components/NavBar/TopBar";
 import NavBar from "../Components/NavBar/NavBar";
+import Cart from "./Cart";
 import Login from "./Login";
 import Body from "./Body";
 import { Routes, Route } from "react-router-dom";
@@ -18,8 +19,10 @@ function App() {
       <NavBar />
       <Routes>
         <Route path="/login" element={<Login />} />
+        <Route path="/" element={<Body />} />
+        <Route path="/cart" element={<Cart />} />
       </Routes>
-      <Body />
+
       <div className="fixed bottom-1 right-[30px] shadow">
         <button className="flex items-center gap-2 border px-3">
           <TiMessages /> Messages

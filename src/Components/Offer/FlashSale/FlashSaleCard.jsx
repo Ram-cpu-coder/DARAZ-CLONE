@@ -1,8 +1,13 @@
 import React from "react";
+import IndividualFlashCard from "./IndividualFlashCard";
 
 const FlashSaleCard = ({ item }) => {
   return (
-    <a href="" className="inline-block hover:border-2 p-2">
+    <a
+      href=""
+      onClick={<IndividualFlashCard />}
+      className="inline-block hover:border-2 p-2"
+    >
       <div className="flex flex-col justify-start">
         <img
           src={item.imgSrc}
