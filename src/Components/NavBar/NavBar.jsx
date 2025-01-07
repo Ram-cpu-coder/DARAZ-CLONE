@@ -1,4 +1,7 @@
 import React from "react";
+
+import { Link } from "react-router-dom";
+
 import { PiShoppingCartSimple } from "react-icons/pi";
 import { CiSearch } from "react-icons/ci";
 
@@ -8,13 +11,13 @@ const NavBar = () => {
       <div className="flex justify-between items-center w-[80%] h-[75px]">
         {/* logo */}
         <div className="h-[80px] w-[200px] flex items-center">
-          <a href="">
+          <Link to="/">
             <img
               src="/assets/images/DarazLogo.png"
               alt="Daraz Logo"
               className="h-auto w-[150px]"
             />
-          </a>
+          </Link>
         </div>
         {/* search bar */}
         <div className="flex w-[55vw] h-[50px] bg-white rounded-md">
@@ -27,9 +30,9 @@ const NavBar = () => {
         </div>
 
         {/* icon-cart */}
-        <a href="/cart">
+        <Link to="/cart">
           <PiShoppingCartSimple className="w-[30px] h-[30px]" />
-        </a>
+        </Link>
       </div>
     </div>
   );
