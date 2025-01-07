@@ -1,10 +1,11 @@
 import React from "react";
 import IndividualFlashCard from "./IndividualFlashCard";
+import { Link } from "react-router-dom";
 
 const FlashSaleCard = ({ item }) => {
   return (
-    <a
-      href=""
+    <Link
+      to="/individualFlashCard"
       onClick={<IndividualFlashCard />}
       className="inline-block hover:border-2 p-2"
     >
@@ -21,7 +22,7 @@ const FlashSaleCard = ({ item }) => {
           <p>-{item.discountPercentage}%</p>
         </span>
       </div>
-    </a>
+    </Link>
   );
 };
 
