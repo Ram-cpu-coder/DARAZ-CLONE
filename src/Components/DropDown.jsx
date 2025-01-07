@@ -8,7 +8,7 @@ const DropDown = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div
-      className="relative h-[50px] flex items-center px-3"
+      className="relative h-[50px] flex justify-start items-center px-3 w-full"
       onMouseEnter={() => {
         setIsOpen(true);
       }}

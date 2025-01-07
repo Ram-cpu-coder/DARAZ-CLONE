@@ -20,7 +20,7 @@ const IndividualFlashCard = () => {
   const emptyStars = 5 - fullStars;
 
   return (
-    <div>
+    <div className="flex flex-col items-center ">
       <DropDown />
       <div className="w-full py-3 border">navigation path</div>
       <div className="flex gap-3">
