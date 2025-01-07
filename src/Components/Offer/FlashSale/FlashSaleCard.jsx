@@ -2,8 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const FlashSaleCard = ({ item }) => {
+  console.log(item);
   return (
-    <>
+    <div>
       <Link
         to="/individualFlashCard"
         state={{ item }}
@@ -17,13 +18,15 @@ const FlashSaleCard = ({ item }) => {
           />
           <p>{item.name}</p>
           <span className="text-[#f57224]">Rs. {item.newPrice}</span>
-          <span className="flex gap-2">
-            <p className="line-through text-[#9e9e9e]">Rs. {item.oldPrice}</p>
-            <p>-{item.discountPercentage}%</p>
-          </span>
+          <p className="flex gap-2">
+            <span className="line-through text-[#9e9e9e]">
+              Rs. {item.oldPrice}
+            </span>
+            <span>-{item.discountPercentage}%</span>
+          </p>
         </div>
       </Link>
-    </>
+    </div>
   );
 };
 

@@ -15,7 +15,7 @@ import flashSaleItems from "../Data/FlashSaleItem";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
-  const [count, setCount] = useState(0);
+  // const [count, setCount] = useState(0);
 
   return (
     <div className="w-[100%]">
