@@ -11,10 +11,7 @@ const Login = () => {
   }, [])
 
   return (
-    <div
-      className='bg-gray-3 h-screen w-screen flex items-center justify-center fixed top-0 left-0 z-50'
-      style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }}
-    >
+    <div className='bg-gray-3 h-screen w-screen flex items-center justify-center fixed top-0 left-0 z-50'>
       <div className='container-sm bg-white min-h-96 w-96 rounded-md p-5'>
         {/* Login Form to take user credentials */}
         <form action='submit' method='post' className='login-form'>
