@@ -25,7 +25,7 @@ const TopBar = () => {
               </Link>
             </li>
             <li>
-              <Link to="#" className="">
+              <div className="cursor-pointer">
                 <Dropdown
                   label=""
                   dismissOnClick={false}
@@ -38,7 +38,6 @@ const TopBar = () => {
                     Contact Customer Care
                   </Dropdown.Item>
                   <Dropdown.Item icon={TbTruckDelivery}>
-                    {" "}
                     Shipping & Delivery
                   </Dropdown.Item>
                   <Dropdown.Item icon={MdAttachMoney}>Payment</Dropdown.Item>
@@ -46,7 +45,7 @@ const TopBar = () => {
                     Order
                   </Dropdown.Item>
                 </Dropdown>
-              </Link>
+              </div>
             </li>
             <li>
               <Link to="/login" className="">

@@ -16,7 +16,7 @@ import { useLocation } from "react-router-dom";
 import { Carousel } from "flowbite-react";
 import DropDown from "../../DropDown";
 
-const IndividualFlashCard = () => {
+const IndividualJustForYouCard = () => {
   const [count, setCount] = useState(0);
   const [love, setLove] = useState(false);
 
@@ -171,44 +171,25 @@ const IndividualFlashCard = () => {
             </button>
           </div>
         </div>
-        <div className="flex flex-col gap-4 w-full">
+        <div className="flex flex-col gap-4">
           <div className="flex flex-col">
             <p>Delivery Options</p>
             <div className="flex justify-between items-center">
-              <p className="flex items-center gap-2">
+              <p className="flex items-center">
                 {" "}
-                <SlLocationPin className="text-2xl" /> "Location from data"
+                <SlLocationPin /> "Location from data"
               </p>
               <Link to="">CHANGE</Link>
-            </div>
-          </div>
-          <hr />
-          <div className="flex flex-col gap-4">
-            <div className="flex justify-between items-center">
-              <div className="flex items-center gap-2">
-                <CiDeliveryTruck className="text-2xl" />
-                <p className="flex flex-col">
-                  <span>Standard Delivery</span>
-                  <span className="text-sm opacity-[50%]">
-                    Guranteed by 11-21 dec
-                  </span>
-                </p>
-              </div>
-              <div>Rs. 125</div>
-            </div>
-            <div className="flex items-center gap-2">
-              <PiMoneyWavyDuotone className="text-2xl" />
-              <p>Cash on hand Available</p>
             </div>
           </div>
           <hr />
           <div className="flex flex-col">
             <p className="flex justify-between items-center">
               <p>Return & Warranty</p>
-              <IoInformationCircleOutline className="" />
+              <IoInformationCircleOutline />
             </p>
             <div className="flex items-center gap-2">
-              <GiReturnArrow className="text-2xl" />
+              <GiReturnArrow />
               <p>14 days easy return</p>
             </div>
           </div>
@@ -218,4 +199,4 @@ const IndividualFlashCard = () => {
   );
 };
 
-export default IndividualFlashCard;
+export default IndividualJustForYouCard;

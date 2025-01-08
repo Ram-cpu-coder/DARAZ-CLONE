@@ -10,6 +10,7 @@ import Cart from "./Cart";
 import Login from "./Login";
 import Body from "./Body";
 import IndividualFlashCard from "../Components/Offer/FlashSale/IndividualFlashCard";
+import IndividualJustForYouCard from "../Components/Offer/JustForYou/IndividualJustForYouCard";
 
 import flashSaleItems from "../Data/FlashSaleItem";
 import { Routes, Route } from "react-router-dom";
@@ -25,9 +26,10 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/" element={<Body flashSaleItems={flashSaleItems} />} />
         <Route path="/cart" element={<Cart />} />
+        <Route path="/individualFlashCard" element={<IndividualFlashCard />} />
         <Route
-          path="/individualFlashCard"
-          element={<IndividualFlashCard item={flashSaleItems} />}
+          path="/individualJustForYouCard"
+          element={<IndividualJustForYouCard />}
         />
       </Routes>
 

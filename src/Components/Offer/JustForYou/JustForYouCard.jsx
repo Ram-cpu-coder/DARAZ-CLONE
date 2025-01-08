@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import { CiStar } from "react-icons/ci";
 
 const JustForYouCard = ({ item }) => {
@@ -6,12 +8,15 @@ const JustForYouCard = ({ item }) => {
 
   const emptyStars = 5 - fullStars;
 
-  //   console.log(item);
   return (
-    <a href="" className="inline-block hover:border-2 p-2">
+    <Link
+      to="/individualJustForYouCard"
+      state={{ item }}
+      className="inline-block hover:border-2 p-2"
+    >
       <div className="flex flex-col justify-start">
         <img
-          src="/assets/images/watchProduct.png"
+          src={item.imgSrc}
           alt=""
           className="h-auto w-[150px] object-cover"
         />
@@ -32,15 +37,9 @@ const JustForYouCard = ({ item }) => {
           {[...Array(emptyStars)].map((_, index) => (
             <CiStar key={index} />
           ))}
-
-          {/* <CiStar className="star" />
-          <CiStar className="star" />
-          <CiStar className="star" />
-          <CiStar />
-          <CiStar /> */}
         </p>
       </div>
-    </a>
+    </Link>
   );
 };
 
