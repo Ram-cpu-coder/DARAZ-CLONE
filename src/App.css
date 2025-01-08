@@ -9,9 +9,7 @@ html {
 .carousal button {
   filter: invert(100%);
 }
-.appAdbg {
-  background: url("/assets/images/bgAppAD.png");
-}
+
 .star {
   background: orange;
   clip-path: polygon(
