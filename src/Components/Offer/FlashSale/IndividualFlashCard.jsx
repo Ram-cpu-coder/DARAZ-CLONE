@@ -255,9 +255,9 @@ const IndividualFlashCard = () => {
                 <p className="text-xs opcaity-[50%]">Sold by</p>
                 <h1>SELLER'S NAME</h1>
               </div>
-              <p className="text-[#136cff] flex items-center gap-1">
+              <Link to="" className="text-[#136cff] flex items-center gap-1">
                 <TiMessages /> Chat Now
-              </p>
+              </Link>
             </div>
             <div className="flex">
               <div className="flex flex-col items-start justify-between border-t-[1px] border-b-[1px] gap-2">
