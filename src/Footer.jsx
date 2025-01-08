@@ -59,47 +59,49 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <div className="flex justify-between w-[80%] m-3">
-        <div className="flex flex-col ">
-          <h1 className="text-lg mb-1">Payment Methods</h1>
-          <div className="flex gap-2">
+      <div className=" bg-[#fff] w-full flex justify-center items-center h-[150px]">
+        <div className="flex justify-between w-[80%] m-3">
+          <div className="flex flex-col ">
+            <h1 className="text-lg mb-1">Payment Methods</h1>
+            <div className="flex gap-2">
+              <img
+                src="https://img.lazcdn.com/us/domino/c2458806-20cd-491a-a688-b401834ea19c_NP-139-84.png"
+                alt=""
+                className="h-[20px]"
+              />
+              <img
+                src="	https://img.lazcdn.com/us/domino/a6e969c7-243f-4323-8ad1-64599aeb52af_NP-117-70.png"
+                alt=""
+                className="h-[20px]"
+              />
+              <img
+                src="https://img.lazcdn.com/us/domino/9ec5c353-cd15-400b-b2b4-8b7182fe76e7_NP-63-48.png"
+                alt=""
+                className="h-[20px]"
+              />
+              <img
+                src="https://img.lazcdn.com/us/domino/9a39944c-1987-458d-8199-3a6c821bcdec_NP-144-84.png"
+                alt=""
+                className="h-[20px]"
+              />
+              <img
+                src="https://img.lazcdn.com/us/domino/22cfe7c1-f299-4f7b-b91a-49e29fc78fc0_NP-144-84.png"
+                alt=""
+                className="h-[20px]"
+              />
+            </div>
+          </div>
+          <div className="flex flex-col">
+            <h1 className="text-lg mb-1">Verified by</h1>
             <img
-              src="https://img.lazcdn.com/us/domino/c2458806-20cd-491a-a688-b401834ea19c_NP-139-84.png"
+              src="https://img.drz.lazcdn.com/g/tps/imgextra/i4/O1CN01ZaMORP1I3qlBom0V2_!!6000000000838-2-tps-73-41.png"
               alt=""
-              className="h-[20px]"
-            />
-            <img
-              src="	https://img.lazcdn.com/us/domino/a6e969c7-243f-4323-8ad1-64599aeb52af_NP-117-70.png"
-              alt=""
-              className="h-[20px]"
-            />
-            <img
-              src="https://img.lazcdn.com/us/domino/9ec5c353-cd15-400b-b2b4-8b7182fe76e7_NP-63-48.png"
-              alt=""
-              className="h-[20px]"
-            />
-            <img
-              src="https://img.lazcdn.com/us/domino/9a39944c-1987-458d-8199-3a6c821bcdec_NP-144-84.png"
-              alt=""
-              className="h-[20px]"
-            />
-            <img
-              src="https://img.lazcdn.com/us/domino/22cfe7c1-f299-4f7b-b91a-49e29fc78fc0_NP-144-84.png"
-              alt=""
-              className="h-[20px]"
+              className="w-[50px]"
             />
           </div>
+          {/* Leave Empty */}
+          <div></div>
         </div>
-        <div className="flex flex-col">
-          <h1 className="text-lg mb-1">Verified by</h1>
-          <img
-            src="https://img.drz.lazcdn.com/g/tps/imgextra/i4/O1CN01ZaMORP1I3qlBom0V2_!!6000000000838-2-tps-73-41.png"
-            alt=""
-            className="w-[50px]"
-          />
-        </div>
-        {/* Leave Empty */}
-        <div></div>
       </div>
       {/* needs to add more in this div */}
       <div></div>

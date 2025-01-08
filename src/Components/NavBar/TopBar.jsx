@@ -1,6 +1,7 @@
 "use client"
 
 import React from "react"
+import { Link } from "react-router-dom"
 
 const TopBar = () => {
   return (
@@ -9,34 +10,34 @@ const TopBar = () => {
         <div className='w-full flex justify-end items-center h-[auto]'>
           <ul className='flex justify-center items-center w-[75%] gap-7'>
             <li>
-              <a href='#' className=''>
+              <Link to='#' className=''>
                 SAVE MORE ON APP
-              </a>
+              </Link>
             </li>
             <li>
-              <a href='#' className=''>
+              <Link to='#' className=''>
                 BECOME A SELLER
-              </a>
+              </Link>
             </li>
             <li>
-              <a href='#' className=''>
+              <Link to='#' className=''>
                 HELP & SUPPORT
-              </a>
+              </Link>
             </li>
             <li>
-              <a href='./login' className=''>
+              <Link to='/login' className=''>
                 LOGIN
-              </a>
+              </Link>
             </li>
             <li>
-              <a href='#' className=''>
+              <Link to='#' className=''>
                 SIGN UP
-              </a>
+              </Link>
             </li>
             <li>
-              <a href='#' className=''>
+              <Link to='#' className=''>
                 भाषा परिवर्तन
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
