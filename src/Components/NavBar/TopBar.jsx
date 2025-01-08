@@ -27,10 +27,11 @@ const TopBar = () => {
             <li>
               <Link to="#" className="">
                 <Dropdown
-                  label="HELP & SUPPORT"
+                  label=""
                   dismissOnClick={false}
                   inline
                   className="z-50"
+                  renderTrigger={() => <span>HELP & SUPPORT</span>}
                 >
                   <Dropdown.Item icon={FaUserAlt}>Help Center</Dropdown.Item>
                   <Dropdown.Item icon={FaHeadset}>
