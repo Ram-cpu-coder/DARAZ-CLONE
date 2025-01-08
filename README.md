@@ -4,12 +4,11 @@ This project is a clone of the Daraz e-commerce platform built using ReactJS.
 
 ## Table of Contents
 
-- [Collaborators](#collaborators)
-
 - [Introduction](#introduction)
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Collaborators](#collaborators)
 - [Contributing](#contributing)
 - [License](#license)
 
