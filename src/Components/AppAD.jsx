@@ -3,21 +3,17 @@ import { FaStar } from "react-icons/fa6";
 
 const AppAD = () => {
   return (
-    <div className="flex flex-col justify-center items-center h-full w-[20%] border bg-custom-gradient gap-4 p-2">
+    <div className="flex flex-col justify-center items-center h-full w-[20%] border bg-custom-gradient gap-2 p-2">
       {/* logo and title  */}
 
       <div className="flex justify-center items-center gap-2">
-        <img
-          src="/assets/images/smallLogo.png"
-          alt="LOGO"
-          className="h-[20px]"
-        />
-        <p>Download the App</p>
+        <img src="/assets/images/smallLogo.png" alt="LOGO" className="h-10" />
+        <p className="text-md font-semibold">Download the App</p>
       </div>
 
       {/* rating and download titles */}
       <div className="appAdbg bg-adBg w-full bg-no-repeat bg-cover overflow-hidden h-[158px] flex flex-col text-white px-2 py-1 gap-1">
-        <div className="ratings flex items-center gap-1 text-sm">
+        <div className="ratings flex items-center gap-1 text-xs">
           <FaStar />
           <p>4.8 Rated</p>
         </div>
@@ -41,7 +37,7 @@ const AppAD = () => {
         </div>
       </div>
       {/* qr code and the link to download */}
-      <div>
+      <div className="flex gap-4">
         {/* qr code */}
         <div>
           <img
@@ -51,12 +47,16 @@ const AppAD = () => {
           />
         </div>
         {/* links to download */}
-        <div>
+        <div className="flex flex-col gap-4">
           {/* app store link */}
-          <div></div>
+          <div>App Store</div>
           {/* play store link */}
-          <div></div>
+          <div>PlayStore</div>
         </div>
+      </div>
+
+      <div>
+        <p className="text-xs">Download the App Now</p>
       </div>
     </div>
   );
