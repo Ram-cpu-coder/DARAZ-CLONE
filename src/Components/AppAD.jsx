@@ -2,7 +2,7 @@ import React from "react";
 
 const AppAD = () => {
   return (
-    <div className="flex flex-col justify-center items-center p-3 w-[20%] border">
+    <div className="flex flex-col justify-center items-center h-full w-[20%] border">
       {/* logo and title  */}
 
       <div className="flex justify-center items-center gap-2">

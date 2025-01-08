@@ -10,7 +10,7 @@ import Footer from "../Footer.jsx";
 const Body = ({ flashSaleItems }) => {
   return (
     <div className="flex flex-col justify-center items-center w-full bg-[#f5f5f5]">
-      <div className="flex w-[80%] h-[500px] p-4">
+      <div className="flex w-[80%] h-[344px] mb-4">
         <Carousal />
         <AppAD />
       </div>
