@@ -1,4 +1,5 @@
 import React, { useEffect } from "react"
+import { Link } from "react-router-dom"
 
 const Login = () => {
   useEffect(() => {
@@ -16,6 +17,28 @@ const Login = () => {
       style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }}
     >
       <div className='container-sm bg-white min-h-96 w-96 rounded-md p-5'>
+        {/* tooolbar */}
+        <div className=' flex justify-end'>
+          <Link to='/'>
+            <svg
+              class='w-[23px] h-[23px] text-gray-800 dark:text-white'
+              aria-hidden='true'
+              xmlns='http://www.w3.org/2000/svg'
+              width='24'
+              height='24'
+              fill='none'
+              viewBox='0 0 24 24'
+            >
+              <path
+                stroke='currentColor'
+                stroke-linecap='round'
+                stroke-linejoin='round'
+                stroke-width='1.1'
+                d='M6 18 17.94 6M18 18 6.06 6'
+              />
+            </svg>
+          </Link>
+        </div>
         {/* Login Form to take user credentials */}
         <form action='submit' method='post' className='login-form'>
           <label htmlFor='username' className='block mb-2 '></label>
