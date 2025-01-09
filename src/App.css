@@ -25,3 +25,15 @@ html {
     39% 35%
   );
 }
+.download-box::before {
+  content: "";
+  position: absolute;
+  left: -7px; /* Adjust position of the pointer */
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 10px 10px 0; /* Creates a right-facing triangle */
+  border-color: transparent white transparent transparent; /* Match background of the box */
+}

@@ -32,8 +32,8 @@ function App() {
         <Route path='/individualJustForYouCard' element={<IndividualJustForYouCard />} />
       </Routes>
 
-      <div className='fixed bottom-1 right-[30px] shadow'>
-        <button className='flex items-center gap-2 border px-3'>
+      <div className="fixed bottom-1 right-[30px] shadow">
+        <button className="flex items-center gap-2 border px-3 bg-[white]">
           <TiMessages /> Messages
         </button>
       </div>
