@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import { Link } from "react-router-dom"
 
-const Login = () => {
+const Login = ({ onClose }) => {
   const [activeTab, setActiveTab] = useState("password")
 
   const handleTabClick = (tab) => {
@@ -40,7 +40,7 @@ const Login = () => {
           </div>
 
           <div className='flex justify-end'>
-            <Link to='/'>
+            <span onClick={onClose} className='cursor-pointer'>
               <svg
                 className='w-[23px] h-[23px] text-gray-800 dark:text-white'
                 aria-hidden='true'
@@ -58,7 +58,7 @@ const Login = () => {
                   d='M6 18 17.94 6M18 18 6.06 6'
                 />
               </svg>
-            </Link>
+            </span>
           </div>
         </div>
 
@@ -139,9 +139,9 @@ const Login = () => {
         <div className='create-account-container flex items-center justify-center h-100 w-full'>
           <div className='text-center text-gray-500 text-sm '>
             Don't have an account?{" "}
-            <a href='signup' className='text-blue-500'>
+            <Link to='/signup' className='text-blue-500'>
               Sign up
-            </a>
+            </Link>
             <div className='mt-7'>
               Or, Login with
               <div className='flex items-center justify-between mt-4'>
