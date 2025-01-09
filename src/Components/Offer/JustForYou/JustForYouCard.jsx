@@ -14,12 +14,8 @@ const JustForYouCard = ({ item }) => {
       state={{ item }}
       className="inline-block hover:border-2 p-2"
     >
-      <div className="flex flex-col justify-start">
-        <img
-          src={item.imgSrc}
-          alt=""
-          className="h-auto w-[150px] object-cover"
-        />
+      <div className="flex flex-col justify-start w-full gap-1">
+        <img src={item.imgSrc} alt="" className="h-auto w-full object-cover" />
         <p>{item.name}</p>
         <div className="flex gap-2">
           <span className="text-[#f57224]">Rs. {item.newPrice}</span>
