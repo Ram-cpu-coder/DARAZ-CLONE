@@ -2,61 +2,63 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col items-center w-full">
-      <div className="flex justify-between w-[80%] m-3">
-        <div className="flex flex-col">
-          <h1 className="text-lg mb-1">Customer Care</h1>
-          <a href="">Help Center</a>
-          <a href="">How to Buy</a>
-          <a href="">Returns & Refunds</a>
-          <a href="">Contact Us</a>
-        </div>
-        <div className="flex flex-col">
-          <h1 className="text-lg mb-1">Daraz</h1>
-          <a href="">About Daraz</a>
-          <a href="">Careers</a>
-          <a href="">Daraz Blog</a>
-          <a href="">Terms & Conditions</a>
-          <a href="">Privacy Policy</a>
-          <a href="">Digital Payments</a>
-          <a href="">Daraz Customer University</a>
-          <a href="">Daraz Affiliate Program</a>
-          <a href="">Review & Win</a>
-          <a href="">Meet the Winners</a>
-          <a href="">Daraz University</a>
-          <a href="">Sell on Daraz</a>
-          <a href="">Code of Conduct</a>
-        </div>
-        <div className="flex justify-center gap-2">
-          <img
-            src="	https://img.lazcdn.com/us/domino/da7668ef-2724-447a-951a-558dafdfb265_NP-60-60.png"
-            alt=""
-            className="h-[50px]"
-          />
+    <div className="flex flex-col items-center">
+      <div className=" bg-[#f4f4f6] w-full flex justify-center">
+        <div className="flex justify-between w-[80%] m-3">
           <div className="flex flex-col">
-            <h1>Happy Shopping</h1>
-            <h2>Download App</h2>
+            <h1 className="text-lg mb-1">Customer Care</h1>
+            <a href="">Help Center</a>
+            <a href="">How to Buy</a>
+            <a href="">Returns & Refunds</a>
+            <a href="">Contact Us</a>
           </div>
-        </div>
-        <div className="flex flex-wrap gap-3 w-[300px] h-[100px]">
-          <a href="">
+          <div className="flex flex-col">
+            <h1 className="text-lg mb-1">Daraz</h1>
+            <a href="">About Daraz</a>
+            <a href="">Careers</a>
+            <a href="">Daraz Blog</a>
+            <a href="">Terms & Conditions</a>
+            <a href="">Privacy Policy</a>
+            <a href="">Digital Payments</a>
+            <a href="">Daraz Customer University</a>
+            <a href="">Daraz Affiliate Program</a>
+            <a href="">Review & Win</a>
+            <a href="">Meet the Winners</a>
+            <a href="">Daraz University</a>
+            <a href="">Sell on Daraz</a>
+            <a href="">Code of Conduct</a>
+          </div>
+          <div className="flex justify-center gap-2">
             <img
-              src="https://img.lazcdn.com/us/domino/afd80417-f3df-464e-bc1a-78d790033ae6_NP-126-42.png"
+              src="	https://img.lazcdn.com/us/domino/da7668ef-2724-447a-951a-558dafdfb265_NP-60-60.png"
               alt=""
+              className="h-[50px]"
             />
-          </a>
-          <a href="">
-            <img
-              src="	https://img.lazcdn.com/us/domino/130438e4-2c46-4620-adee-5d6e33b011cb_NP-126-42.png"
-              alt=""
-            />
-          </a>
-          <a href="">
-            <img
-              src="	https://img.lazcdn.com/us/domino/b57e9929-aff3-47d4-b5ec-c0954f271088_NP-126-42.png"
-              alt=""
-            />
-          </a>
+            <div className="flex flex-col">
+              <h1>Happy Shopping</h1>
+              <h2>Download App</h2>
+            </div>
+          </div>
+          <div className="flex flex-wrap gap-3 w-[300px] h-[100px]">
+            <a href="">
+              <img
+                src="https://img.lazcdn.com/us/domino/afd80417-f3df-464e-bc1a-78d790033ae6_NP-126-42.png"
+                alt=""
+              />
+            </a>
+            <a href="">
+              <img
+                src="	https://img.lazcdn.com/us/domino/130438e4-2c46-4620-adee-5d6e33b011cb_NP-126-42.png"
+                alt=""
+              />
+            </a>
+            <a href="">
+              <img
+                src="	https://img.lazcdn.com/us/domino/b57e9929-aff3-47d4-b5ec-c0954f271088_NP-126-42.png"
+                alt=""
+              />
+            </a>
+          </div>
         </div>
       </div>
       <div className=" bg-[#fff] w-full flex justify-center items-center h-[150px]">

@@ -18,6 +18,7 @@ import { useLocation } from "react-router-dom";
 import { Carousel } from "flowbite-react";
 import DropDown from "../../DropDown";
 import Counter from "../../Counter";
+import BreadCrumbForCards from "../../BreadCrumbForCards";
 
 const IndividualJustForYouCard = () => {
   const [count, setCount] = useState(0);
@@ -29,15 +30,6 @@ const IndividualJustForYouCard = () => {
   const fullStars = Math.round(item.ratings);
   const emptyStars = 5 - fullStars;
 
-  const handleCountIncrement = () => {
-    setCount(count + 1);
-  };
-  const handleCountDecrement = () => {
-    if (count < 1) {
-    } else {
-      setCount(count - 1);
-    }
-  };
   const handleLove = () => {
     if (love === true) {
       setLove(false);
@@ -47,40 +39,19 @@ const IndividualJustForYouCard = () => {
   };
 
   return (
-    <div className="flex justify-center bg-[#f5f5f5]">
-      <div className="flex flex-col items-center w-[80%] bg-[white]">
+    <div className="flex flex-col justify-center items-center bg-[#eff0f5]">
+      <div className="flex flex-col items-center w-full">
         <DropDown />
-        <div className="w-full py-3 bg-[#f5f5f5]">navigation path</div>
+      </div>
+      <BreadCrumbForCards />
+      <div className="flex flex-col items-center w-[80%] bg-[white] mb-5">
         <div className="flex gap-3 w-full">
           {/* images and carousal section */}
           <div className="flex flex-col w-[25%] p-2">
             <div>
               <img src={item.imgSrc} alt="" className="h-auto w-[350px]" />
             </div>
-            <div className="h-[80px] w-[250px] border">
-              <Carousel slide={false}>
-                <img
-                  src="https://flowbite.com/docs/images/carousel/carousel-1.svg"
-                  alt="..."
-                />
-                <img
-                  src="https://flowbite.com/docs/images/carousel/carousel-2.svg"
-                  alt="..."
-                />
-                <img
-                  src="https://flowbite.com/docs/images/carousel/carousel-3.svg"
-                  alt="..."
-                />
-                <img
-                  src="https://flowbite.com/docs/images/carousel/carousel-4.svg"
-                  alt="..."
-                />
-                <img
-                  src="https://flowbite.com/docs/images/carousel/carousel-5.svg"
-                  alt="..."
-                />
-              </Carousel>
-            </div>
+            <div className="w-[300px] h-[50px] mt-3">sldfjlsjfl</div>
           </div>
           {/* middle section having the detail of product like name and price */}
           <div className="flex flex-col gap-4 w-[50%]">
