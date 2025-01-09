@@ -101,7 +101,7 @@ const Signup = () => {
         <div className='create-account-container flex items-center justify-center h-100 w-full mt-4'>
           <div className='text-center text-gray-500 text-sm '>
             Already have an account?{" "}
-            <a href='#' className='text-blue-500'>
+            <a href='/login' className='text-blue-500'>
               Log in Now
             </a>
             <div className='mt-7'>
@@ -140,4 +140,4 @@ const Signup = () => {
 export default Signup
 
 // TO DO
-// verify if the number is 10 digits long
+// number Check feature
