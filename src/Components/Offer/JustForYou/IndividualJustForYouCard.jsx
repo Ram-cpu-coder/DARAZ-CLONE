@@ -17,6 +17,7 @@ import { TiMessages } from "react-icons/ti";
 import { useLocation } from "react-router-dom";
 import { Carousel } from "flowbite-react";
 import DropDown from "../../DropDown";
+import Counter from "../../Counter";
 
 const IndividualJustForYouCard = () => {
   const [count, setCount] = useState(0);
@@ -152,23 +153,9 @@ const IndividualJustForYouCard = () => {
                   <span>buttons with different sizes of the product</span>
                 </span>
               </p>
-              <p className="flex gap-2">
+              <p className="flex gap-2 items-center">
                 Quantity
-                <button
-                  className={`${
-                    count < 1 ? "cursor-not-allowed" : "cursor-pointer"
-                  } border px-2 opacity-50 hover:bg-[grey]`}
-                  onClick={handleCountDecrement}
-                >
-                  -
-                </button>
-                <span>{count}</span>
-                <button
-                  className="border px-2 opacity-50 hover:bg-[grey]"
-                  onClick={handleCountIncrement}
-                >
-                  +
-                </button>
+                <Counter count={count} setCount={setCount} />
               </p>
             </div>
             <div className="flex gap-3 mt-3">
