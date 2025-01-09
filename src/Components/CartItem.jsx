@@ -18,7 +18,7 @@ const CartItem = () => {
       </div>
       <div>
         <div className="border-t-[1px] bg-white shadow-sm ">
-          <div className="space-y-4 p-3 md:flex md:items-center md:justify-between md:gap-6 md:space-y-0">
+          <div className="space-y-4 p-3 md:flex md:items-center md:justify-between md:space-y-0">
             <input type="checkbox" name="" id="" />
             {/* Image */}
             <a href="#" className="shrink-0 md:order-1">
@@ -43,7 +43,7 @@ const CartItem = () => {
             </div>
             {/* Price */}
             <div className="text-end md:order-3 flex flex-col gap-2">
-              <p className="font-semibold text-[#f57224] text-lg">$1,499</p>
+              <p className="font-semibold text-[#f57224] text-lg">Rs. 1,499</p>
               <div className="flex items-center gap-2 text-xl text-[#757575]">
                 <FaRegHeart />
                 <FaRegTrashAlt />
