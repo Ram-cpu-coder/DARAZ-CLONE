@@ -101,9 +101,9 @@ const Signup = () => {
         <div className='create-account-container flex items-center justify-center h-100 w-full mt-4'>
           <div className='text-center text-gray-500 text-sm '>
             Already have an account?{" "}
-            <a href='/login' className='text-blue-500'>
+            <Link to='/login' className='text-blue-500'>
               Log in Now
-            </a>
+            </Link>
             <div className='mt-7'>
               Or, Sign up with
               <div className='flex items-center justify-between mt-4'>
