@@ -20,7 +20,7 @@ const TopBar = () => {
               </Link>
             </li>
             <li>
-              <Link to='#' className=''>
+              <Link to='/becomeaseller' className=''>
                 BECOME A SELLER
               </Link>
             </li>
